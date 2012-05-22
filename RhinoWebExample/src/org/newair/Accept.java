@@ -112,7 +112,7 @@ Object result = cx.evaluateString(scope, s, "<cmd>",1, null);
 System.out.println(cx.toString(result));
 
 
-pw.println(cx.toString(result));
+pw.println("Output :"+cx.toString(result));
 
 
 
